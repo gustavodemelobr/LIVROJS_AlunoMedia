@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Situação do Aluno</title>
+</head>
+<body>
+    <h1>Programa Situação do Aluno</h1>
+    <form>
+        <p>
+            Nome do aluno:
+            <input type="text" required>
+        </p>
+        <p>
+            1ª nota:
+            <input type="number" min="0" max="10" step="0.01" required>
+        </p>
+        <p>
+            2ª nota:
+            <input type="number" min="0" max="10" step="0.01" required>
+        </p>
+        <input type="submit" value="Exibir Média e Situação">
+    </form>
+    <h2 class="outMedia"></h2>
+    <h3 class="outMsg"></h3>
+    
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
